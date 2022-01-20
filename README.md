@@ -1,6 +1,6 @@
 # findogo
 
-A new Flutter project.
+A flutter app to identify different types of dogs and their breed using machine learning.
 
 ## Getting Started
 
