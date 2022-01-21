@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
     return SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            title: Text("FINDOGO",),),
+            title: Text("FINDOGO",),centerTitle: true,),
           body: Container(
             decoration: BoxDecoration(
               image: DecorationImage(
@@ -117,27 +117,19 @@ class _HomeState extends State<Home> {
                   children: [
 
                     Center(
-                      child: Container(
-                        height: 320.0,
-                        width: 360.0,
-                        child: Image.asset("assets/frame.jpg"),
-                      ),
-                    ),
-
-                    Center(
                       child: TextButton(
                         onPressed: (){
 
                           initCamera();
                         },
                         child: Container(
-                          height: 270.0,
-                          width: 360.0,
+                          height: 400.0,
+                          width: 400.0,
                           child: imgCamera == null
                           ?
                               Container(
-                                height: 270.0,
-                                width: 360.0,
+                                height: 400.0,
+                                width: 400.0,
                                   child: Icon(Icons.photo_camera_back,color: Colors.deepPurpleAccent,)
                               )
                               :
