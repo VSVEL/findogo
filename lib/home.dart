@@ -2,7 +2,7 @@ import 'package:camera/camera.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tflite/tflite.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 import 'main.dart';
 
 class Home extends StatefulWidget {
